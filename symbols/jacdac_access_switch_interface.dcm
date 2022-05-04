@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 54-00036_audio_plug
+F http://www.tensility.com/pdffiles/54-00036.pdf
+$ENDCMP
+#
+$CMP AQY282
+D Panasonic photoMOS relay
+K MOSFET Output Photorelay
+F https://www.farnell.com/datasheets/1486501.pdf?_ga=2.139334331.909397123.1574050191-1358089009.1571366539
+$ENDCMP
+#
+$CMP STM32G031J6M6
+D STM32 microcontroller
+$ENDCMP
+#
+$CMP symbol_qr_code_mirrored
+D QR code symbol, mirrored to go on base of board
+K Logo
+F ~
+$ENDCMP
+#
+#End Doc Library
