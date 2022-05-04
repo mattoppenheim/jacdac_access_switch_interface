@@ -3139,7 +3139,7 @@
       (reference "U2") (unit 1) (value "STM32G031J6M6") (footprint "jacdac_access_switch_interface:SOIC-8_W3.9mm")
     )
     (path "/00000000-0000-0000-0000-000062189a29"
-      (reference "U3") (unit 1) (value "AQY282") (footprint "Package_SO:SOP-4_3.8x4.1mm_P2.54mm")
+      (reference "U3") (unit 1) (value "AQY282") (footprint "jacdac_access_switch_interface:SOP-4_3.8x4.1mm_P2.54mm")
     )
   )
 )

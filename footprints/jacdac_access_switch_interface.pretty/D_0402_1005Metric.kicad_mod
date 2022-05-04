@@ -39,7 +39,12 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 40518a2d-84af-4ee9-b55e-e314e6685fab))
   (pad "1" smd roundrect (at -0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d7449af9-5500-4a60-a172-38919365ed12))
   (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8d598018-142c-4ec0-a588-c887c59f1b7a))
-  (model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
+  (model "${KIPRJMOD}/3dshapes/LED_0402_1005Metric.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/3dshapes/LED_0402_1005Metric.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
