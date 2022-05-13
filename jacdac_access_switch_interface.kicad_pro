@@ -454,8 +454,6 @@
         "name": "power",
         "nets": [
           "+3V3",
-          "/PLUG_TIP",
-          "/SLEEVE",
           "GND",
           "JD_PWR"
         ],
