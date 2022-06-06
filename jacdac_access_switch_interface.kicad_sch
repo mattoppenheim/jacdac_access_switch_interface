@@ -7,7 +7,7 @@
   (title_block
     (title "Jacdac access switch output")
     (date "2022-01-07")
-    (rev "v1.3")
+    (rev "v1.4")
     (comment 3 "Licence: Attribution 4.0 International (CC BY 4.0)")
     (comment 4 "Matthew Oppenheim")
   )
