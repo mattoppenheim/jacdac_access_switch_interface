@@ -6,9 +6,9 @@
 
   (paper "A4")
   (title_block
-    (title "Jacdac access switch output")
+    (title "Jacdac access switch interface")
     (date "2022-01-07")
-    (rev "v1.4")
+    (rev "v1.5")
     (comment 3 "Matthew Oppenheim")
     (comment 4 "Licence: Attribution 4.0 International (CC BY 4.0)")
   )
@@ -4639,7 +4639,7 @@
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 6bb860a6-ad09-4b33-9190-4ce6c02f7daf))
   (gr_rect (start 154.5 67.5) (end 167.5 69)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp daef6268-65e3-4a2c-811b-258ede379106))
-  (gr_text "Switch output\nv1.4" (at 162.5 110.5) (layer "B.SilkS") (tstamp 86ec249f-6e5a-4da3-bac0-47e2f32b64e2)
+  (gr_text "Switch interface\nv1.5" (at 162.5 110.5) (layer "B.SilkS") (tstamp 86ec249f-6e5a-4da3-bac0-47e2f32b64e2)
     (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
   )
 

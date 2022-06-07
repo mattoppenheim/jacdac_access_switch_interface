@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Jacdac access switch output")
+    (title "Jacdac access switch interface")
     (date "2022-01-07")
-    (rev "v1.4")
+    (rev "v1.5")
     (comment 3 "Licence: Attribution 4.0 International (CC BY 4.0)")
     (comment 4 "Matthew Oppenheim")
   )
