@@ -3211,7 +3211,7 @@
 
   (footprint "jacdac_access_switch_interface:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-0000613c09d9)
-    (at 152.4 76.4 -90)
+    (at 153.6 75.3 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC" "C25091")
@@ -4489,7 +4489,7 @@
 
   (footprint "jacdac_access_switch_interface:SOT-23" (layer "F.Cu")
     (tstamp 931b11b8-f74f-4596-94f5-3f2ef2e6f4a6)
-    (at 150 76)
+    (at 151.2 75.7)
     (descr "SOT-23, Standard")
     (tags "SOT-23")
     (property "LCSC" "C47546")

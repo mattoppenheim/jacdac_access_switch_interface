@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Jacdac")(type "KiCad")(uri "${KIPRJMOD}/symbols/Jacdac.kicad_sym")(options "")(descr ""))
+  (lib (name "jacdac_access_switch_interface-cache")(type "Legacy")(uri "${KIPRJMOD}/symbols/jacdac_access_switch_interface-cache.lib")(options "")(descr "")(disabled))
+  (lib (name "jacdac_access_switch_interface")(type "KiCad")(uri "${KIPRJMOD}/symbols/jacdac_access_switch_interface.kicad_sym")(options "")(descr ""))
+)
