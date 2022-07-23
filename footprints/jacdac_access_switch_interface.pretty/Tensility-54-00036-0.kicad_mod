@@ -1,4 +1,4 @@
-(footprint "Tensility-54-00036-0" (version 20220427) (generator pcbnew)
+(footprint "Tensility-54-00036-0" (version 20220609) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 7.4 -3.6) (layer "Cmts.User")
@@ -49,9 +49,9 @@
     (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 0c434aba-b43a-442a-8135-a7d70e96907d))
   (fp_line (start 13.3 2.5) (end -13.3 2.5)
     (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 934b7d69-32e1-4fe9-8a5b-3576e80e493f))
-  (pad "1" thru_hole rect (at 6.05 0) (size 1.8 3) (drill oval 0.4 1.5) (layers *.Cu *.Mask) (tstamp e1845631-eebb-41c5-9ae2-b095d87adaff))
+  (pad "1" thru_hole oval (at 11.05 0) (size 1.8 3) (drill oval 0.4 1.5) (layers *.Cu *.Mask) (tstamp 6f2bc994-0dab-4d47-b0cd-a11d7178a1c3))
   (pad "2" thru_hole oval (at 8.55 0) (size 1.8 3) (drill oval 0.4 1.5) (layers *.Cu *.Mask) (tstamp eb6f12d6-9c49-4854-8ba9-7970d1fd17b7))
-  (pad "3" thru_hole oval (at 11.05 0) (size 1.8 3) (drill oval 0.4 1.5) (layers *.Cu *.Mask) (tstamp 6f2bc994-0dab-4d47-b0cd-a11d7178a1c3))
+  (pad "3" thru_hole rect (at 6.05 0) (size 1.8 3) (drill oval 0.4 1.5) (layers *.Cu *.Mask) (tstamp e1845631-eebb-41c5-9ae2-b095d87adaff))
   (model "${KIPRJMOD}/3dshapes/Tensility_-_54-00036.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
