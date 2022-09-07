@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.1,
-          "height": 4.4,
-          "width": 4.4
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.16,
         "silk_text_italic": false,
@@ -64,6 +64,7 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "ignore",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
@@ -117,6 +118,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.06,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
@@ -436,7 +438,6 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "jacdac_connector",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -454,17 +455,6 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "power",
-        "nets": [
-          "+3V3",
-          "/RING1",
-          "/RING2",
-          "/SLEEVE1",
-          "/SLEEVE2",
-          "/TIP1",
-          "/TIP2",
-          "GND",
-          "JD_PWR"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
@@ -482,36 +472,6 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "signal",
-        "nets": [
-          "/JD_DATA",
-          "/JD_DATA_MCU",
-          "/JD_STATUS",
-          "/RELAY1",
-          "/RELAY2",
-          "/RGB_B",
-          "/RGB_G",
-          "/RGB_R",
-          "/RING1_P",
-          "/RING2_P",
-          "/SLEEVE1_P",
-          "/SLEEVE2_P",
-          "/SWDCLK",
-          "/SWDIO",
-          "/TIP1_P",
-          "/TIP2_P",
-          "/nFLASH",
-          "/nRESET",
-          "Net-(C3-Pad1)",
-          "Net-(D12-A)",
-          "Net-(D3-common)",
-          "Net-(D5-Pad1)",
-          "Net-(D5-Pad2)",
-          "Net-(D5-Pad3)",
-          "Net-(R2-Pad1)",
-          "Net-(R3-Pad1)",
-          "unconnected-(U2-PA0)",
-          "unconnected-(U2-PC15)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
@@ -521,9 +481,11 @@
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -573,6 +535,8 @@
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
