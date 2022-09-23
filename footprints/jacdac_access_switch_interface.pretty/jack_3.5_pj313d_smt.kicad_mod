@@ -6,7 +6,7 @@
   (property "Sheetname" "")
   (property "package" "PJ313D")
   (attr smd)
-  (fp_text reference "J3" (at 7.359546 0.10858 270) (layer "Cmts.User")
+  (fp_text reference "REF**" (at 7.359546 0.10858 270) (layer "F.Fab")
       (effects (font (size 0.99822 0.99822) (thickness 0.19812)))
     (tstamp 71b3ee38-50ac-40e4-9f98-cbce59d44ee5)
   )

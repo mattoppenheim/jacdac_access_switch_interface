@@ -1,4 +1,4 @@
-Accessibility switch interface module for the Microsoft Jacdac project [https://microsoft.github.io/jacdac-docs/].
+Accessibility switch interface module for the Microsoft Jacdac project https://microsoft.github.io/jacdac-docs/.
 
 This design is still under development and not yet proven.
 
