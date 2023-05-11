@@ -1,6 +1,6 @@
 Accessibility switch interface module for the Microsoft Jacdac project https://microsoft.github.io/jacdac-docs/.
 
-This design is still under development and not yet proven.
+The boards tested as working.
 
 The board has two channels for interfacing accessibility switches or devices that can be controlled by an accessibility switch.
 
@@ -14,5 +14,5 @@ Schematics and PCB layout are made using KiCad Version: 6.99.0-unknown-2887+gf4f
 
 The board layout conforms with Ec30Template20x20 80-1.0 drawing.PDF. The Jacdac edge connector conforms with drawing JacdacEdgeConnectorRef 101-1.1 drawing.PDF.
 
-Matthew Oppenheim 2022
+Matthew Oppenheim 2023
 matt@mattoppenheim.com
